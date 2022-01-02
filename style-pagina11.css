@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+/*  background-image: url('covid_wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;*/
+  background-image: url('https://i.giphy.com/media/UUsOy6IWmzw6mmeOpQ/giphy.webp');
+
+   background-repeat: no-repeat;
+   background-size:1300px 600px;
+
+}
+.button5{
+	position:relative;
+  border: none;
+ color: black;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ margin: 4px 2px;
+ cursor: pointer;
+ border-radius: 4px;
+ font-family: 'Poppins', sans-serif;
+
+}
+.button {
+  position: relative;
+  display: inline-block;
+  width: auto; height: auto;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin: 0px 25px 15px;
+  min-width: 150px;
+}
+.button span {         
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    top: 0; left: 0;
+    width: 100%;
+    padding: 15px 5px;
+    transition: 0.3s;
+  }
+
+.button1 {
+  background-color: #4CAF50;
+  position: absolute;
+  bottom: 250px;
+  left:650px;
+
+  } /* Green */
+.button2 {
+  background-color: #4CAF50;
+  position: absolute;
+  bottom: 250px;
+  left:450px;
+  } /* Blue */
+  
+.btnholder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 10px auto 35px;
+}
+.btnholder2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 10px auto 35px;
+}
+:active, :hover, :focus {
+  outline: 0!important;
+  outline-offset: 0;
+}
+::before,
+::after {
+  position: absolute;
+  content: "";
+}
+
+
+.button1::before {
+  background-color: rgb(28, 31, 30);
+  transition: 0.3s ease-out;
+}
+.button1 span {
+  color: rgb(255,255,255);
+  border: 0px solid rgb(28, 31, 30);
+  transition: 0.2s 0.1s;
+}
+.button1 span:hover {
+  color: rgb(28, 31, 30);
+  transition: 0.2s 0.1s;
+}
+
+  
+ .button1.hfsu::before {
+  top: 0; left: 0; right: 0;
+  height: 100%; width: 100%;
+}
+.button1.hfsu:hover::before {
+  height: 0%;
+}
+
+.button2::before {
+  background-color: rgb(28, 31, 30);
+  transition: 0.3s ease-out;
+}
+.button2 span {
+  color: rgb(255,255,255);
+  border: 0px solid rgb(28, 31, 30);
+  transition: 0.2s 0.1s;
+}
+.button2 span:hover {
+  color: rgb(28, 31, 30);
+  transition: 0.2s 0.1s;
+}
+
+  
+ .button2.hfsu::before {
+  top: 0; left: 0; right: 0;
+  height: 100%; width: 100%;
+}
+.button2.hfsu:hover::before {
+  height: 0%;
+}
+
+.button_log::before {
+  background-color: rgb(28, 31, 30);
+  transition: 0.3s ease-out;
+}
+.button_log span {
+  color: rgb(255,255,255);
+  border: 0px solid rgb(28, 31, 30);
+  transition: 0.2s 0.1s;
+}
+.button_log span:hover {
+  color: rgb(28, 31, 30);
+  transition: 0.2s 0.1s;
+}
+
+  
+ .button_log.hfsu::before {
+  top: 0; left: 0; right: 0;
+  height: 100%; width: 100%;
+}
+.button_log.hfsu:hover::before {
+  height: 0%;
+}
